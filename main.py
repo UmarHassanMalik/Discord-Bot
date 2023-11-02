@@ -79,7 +79,7 @@ async def on_message(message):
                           description='\n\n'.join(str(x) for x in cars),
                           color=0xfffb00)
 
-  clan_players = ["- Pragmatic", "- QueenLily", "- The_Dark_Soul", '- Prosperity','- Homosphere','- sparky_girl', '- redrover23','- Echo','- Ashren','- mainstein007', '-Misdirection']
+  clan_players = ["- Pragmatic", "- QueenLily", "- The_Dark_Soul", '- Extint','- Autonomous','- Misfortune', '- Redrover','- Echo','- Insurge','- Span', '-Misdirection']
   if (message.content == '$cp'):
     embed = discord.Embed(title="Clan Players",
                           description='\n\n'.join(str(x) for x in clan_players),
